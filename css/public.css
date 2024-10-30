@@ -1,0 +1,147 @@
+.search-results li{
+	margin-left: 0px !important;
+}
+.search-results td{
+    vertical-align: top;
+}
+.clickable{
+	text-decoration: underline;
+	font-size: 13px;
+	cursor: pointer;
+}
+.pagination{
+	float: right;
+}
+.header{
+	font-weight: bold;
+}
+.details{
+	cursor: pointer;
+}
+.prop-details{
+	width: auto !important;
+}
+a.more{
+	 border: 1px solid #ddd;
+     border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px 4px;
+}
+.add-city{
+	font-weight:400!important;
+}
+.table{
+	width:100%;
+}
+.table tr td{
+	vertical-align:top; 
+	padding:6px;
+}
+.table tr td .tb{
+	font-weight:bold;
+}
+.table tr td .fr{
+	float:right;
+}
+.table tr td p{
+	margin:4px 0px; 
+	padding:0px; 
+	line-height:26px; 
+	font-weight: 300;
+}
+.table tr td p img{
+	max-width:inherit;
+}
+.table tr td .btn-read-more{
+	margin-top:36px;
+}
+.table tr td .view-more{
+	margin-top:36px;
+}
+.table tr td .view-more a{
+	margin-right:3px;
+}
+.table tr td .view-more a:last-child{
+	margin-right:0px;
+}
+.table tr td h2{
+	font-size:24px; 
+	margin:4px 0px;
+}
+.table tr td h3{
+	font-size:18px; 
+	margin:4px 0px 8px 0px;
+}
+.table tr td ul{
+	margin:0px 0px 0px 20px; 
+	padding:0px;
+}
+.table tr td ul li{
+	line-height:26px; 
+	font-weight: 300;
+}
+#slider .flex-direction-nav a{
+	display:none;
+}
+.flex-direction-nav .flex-next{
+	right:-15px !important;
+}
+.flex-direction-nav .flex-prev{
+	left:-15px !important;
+}
+#carousel .flex-direction-nav a{
+	height:30px!important; 
+	overflow:visible!important;
+}
+.table .soffer-view li:last-child{
+	list-style:none;
+}
+#banner-fade ul{
+	margin:0px;
+}
+.rslides img{
+	max-width:inherit!important;
+}
+.table .add-city h4{
+	 margin:0px; 
+	 font-weight:400;
+	 display:inline-block; 
+	 line-height: 28px; 
+	 font-size: 18px;
+}
+.table .add-city h3{
+	 margin:0px; 	 
+	 display:inline-block; 
+	 line-height: 28px; 
+}
+.table .add-city .qnty li{
+	list-style: none; 
+	display:inline-block; 
+	margin: 0px; 
+	vertical-align: middle;
+}
+.table .add-city .qnty li img{
+	 padding:0px 4px 0px 6px;
+} 
+.table .add-city .qnty li:last-child img{ 
+	padding:0px 0px 0px 6px;
+} 
+.table .add-city .qnty{
+	margin-left:10px;
+}
+.table .add-city .qnty li span{
+	color:#444; 
+	font-size:14px; 
+	font-weight: 600; 
+	vertical-align: middle;
+}
+@media screen and (max-width: 479px){ 
+	 
+	 .table tr td p img{
+	 	width:100%;
+	 }	
+	 .rslides img{
+	 	width:100%;
+	 }
+}
